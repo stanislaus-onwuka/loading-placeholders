@@ -1,6 +1,8 @@
 {
   "name": "loading-placeholders",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Basic loading placeholders because spinners are boring",
+  "main": "dist/placeholder/placeholder.js",
   "private": false,
   "babel": {
     "presets": [
@@ -23,6 +25,12 @@
     "eject": "react-scripts eject",
     "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/components -d dist --copy-files"
   },
+  "keywords": [
+    "placeholders",
+    "loading",
+    "react",
+    "loading placeholders"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,5 +52,13 @@
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/preset-react": "^7.12.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanislaus-onwuka/loading-placeholders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanislaus-onwuka/loading-placeholders/issues"
+  },
+  "homepage": "https://github.com/stanislaus-onwuka/loading-placeholders#readme"
 }
