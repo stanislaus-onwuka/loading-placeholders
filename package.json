@@ -1,6 +1,6 @@
 {
   "name": "loading-placeholders",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic loading placeholders because spinners are boring",
   "main": "dist/placeholder/placeholder.js",
   "private": false,

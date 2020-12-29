@@ -9,7 +9,7 @@ npm install loading-placeholders
 ```
 
 ## Usage
-   ```
+   ```  js
     import React from 'react';
     import Placeholders from 'loading-placeholder';
     //This will make it more custom
@@ -21,7 +21,8 @@ npm install loading-placeholders
             {
                 loadingState !== 200 
                 ?
-                    <Placeholders height="100px" width="80px" br="15px" n=10 margin="0.8rem" />
+                    <Placeholders height="100px" width="80px" br="15px" n="10" margin="0.8rem" />
+                    // 9 placeholders with the height of 100px, width of 80px and margin of 0.8rem
                 :
                     <Component/>
                     //Whatever is supposed to show
