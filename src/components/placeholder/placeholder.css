@@ -2,8 +2,6 @@
   display: block;
   -webkit-transition: 0.15s;
   transition: 0.15s;
-  margin: 0.8rem;
-  border-radius: 15px;
   background-color: #ecececeb;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(33%, transparent), color-stop(50%, rgba(255, 255, 255, 0.658)), color-stop(66%, transparent));
   background-image: linear-gradient(to right, transparent 33%, rgba(255, 255, 255, 0.658) 50%, transparent 66%);
@@ -16,16 +14,10 @@
   0% {
     background-position: right;
   }
-  /*100% {
-      background-position: left; it's the default value, no need to define it
-    }*/
 }
 
 @keyframes shine {
   0% {
     background-position: right;
   }
-  /*100% {
-      background-position: left; it's the default value, no need to define it
-    }*/
 }

@@ -1,9 +1,7 @@
 .placeholder{
     display:block;
-    // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.096);
     transition: 0.15s;
-    margin: 0.8rem;
-    border-radius: 15px;
+    // margin: 0.8rem;
     background-color: #ecececeb;
     background-image: linear-gradient(
     to right,
@@ -19,7 +17,4 @@
     0% {
       background-position: right;    
     }
-    /*100% {
-      background-position: left; it's the default value, no need to define it
-    }*/
 }

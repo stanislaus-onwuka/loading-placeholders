@@ -1,3 +1,6 @@
 /src
 /public
 /node_modules
+/dist/placeholder.scss
+/.gitignore
+/.eslintcache
